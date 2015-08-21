@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <TheSDK/TheSDK.h>
-#import <OtherSDK/OtherSDK.h>
 
 @interface ViewController ()
 
@@ -29,8 +28,6 @@
     }] array];
     
     NSLog(@"Things: %@", things);
-    
-    [self doOtherThing];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,13 +43,6 @@
                                    return [[name substringToIndex:1] compare:@"p" options:NSCaseInsensitiveSearch] == NSOrderedSame;
                                }] array];
     return filteredNames;
-}
-
-- (void)doOtherThing
-{
-    OSKMog *mog = [[OSKMog alloc] init];
-    
-    NSLog(@"That mog thing: %@", mog);
 }
 
 @end

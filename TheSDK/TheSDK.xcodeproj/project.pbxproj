@@ -12,13 +12,7 @@
 		005C947C1B875D3A009D1B83 /* TheSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005C947B1B875D3A009D1B83 /* TheSDKTests.m */; };
 		005C94871B875F9C009D1B83 /* TSKThing.h in Headers */ = {isa = PBXBuildFile; fileRef = 005C94851B875F9C009D1B83 /* TSKThing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		005C94881B875F9C009D1B83 /* TSKThing.m in Sources */ = {isa = PBXBuildFile; fileRef = 005C94861B875F9C009D1B83 /* TSKThing.m */; };
-		005C94951B876694009D1B83 /* OtherSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 005C94941B876694009D1B83 /* OtherSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		005C949B1B876694009D1B83 /* OtherSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005C94901B876693009D1B83 /* OtherSDK.framework */; };
-		005C94A21B876694009D1B83 /* OtherSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005C94A11B876694009D1B83 /* OtherSDKTests.m */; };
-		005C94AB1B8766C1009D1B83 /* OSKMog.h in Headers */ = {isa = PBXBuildFile; fileRef = 005C94A91B8766C1009D1B83 /* OSKMog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		005C94AC1B8766C1009D1B83 /* OSKMog.m in Sources */ = {isa = PBXBuildFile; fileRef = 005C94AA1B8766C1009D1B83 /* OSKMog.m */; };
 		03C371D25DBE2B2176944993 /* Pods_TheSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E23F707DF89A99BADD4A1FD /* Pods_TheSDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		C8135BE3B2C2B0E8A1DD4ABD /* Pods_OtherSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3AD9CB9D4EBE79BBB9607F /* Pods_OtherSDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +22,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 005C94681B875D3A009D1B83;
 			remoteInfo = TheSDK;
-		};
-		005C949C1B876694009D1B83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 005C94601B875D3A009D1B83 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 005C948F1B876693009D1B83;
-			remoteInfo = OtherSDK;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -47,12 +34,8 @@
 		005C947B1B875D3A009D1B83 /* TheSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheSDKTests.m; sourceTree = "<group>"; };
 		005C94851B875F9C009D1B83 /* TSKThing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKThing.h; sourceTree = "<group>"; };
 		005C94861B875F9C009D1B83 /* TSKThing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKThing.m; sourceTree = "<group>"; };
-		005C94901B876693009D1B83 /* OtherSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OtherSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		005C94931B876693009D1B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		005C94941B876694009D1B83 /* OtherSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherSDK.h; sourceTree = "<group>"; };
-		005C949A1B876694009D1B83 /* OtherSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtherSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		005C94A01B876694009D1B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		005C94A11B876694009D1B83 /* OtherSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherSDKTests.m; sourceTree = "<group>"; };
 		005C94A91B8766C1009D1B83 /* OSKMog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSKMog.h; sourceTree = "<group>"; };
 		005C94AA1B8766C1009D1B83 /* OSKMog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSKMog.m; sourceTree = "<group>"; };
 		14FED8CD667116C036F3E8E0 /* Pods-TheSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSDK.release.xcconfig"; path = "../Pods/Target Support Files/Pods-TheSDK/Pods-TheSDK.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,22 +63,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		005C948C1B876693009D1B83 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8135BE3B2C2B0E8A1DD4ABD /* Pods_OtherSDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		005C94971B876694009D1B83 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				005C949B1B876694009D1B83 /* OtherSDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -105,7 +72,6 @@
 				005C946B1B875D3A009D1B83 /* TheSDK */,
 				005C94781B875D3A009D1B83 /* TheSDKTests */,
 				005C94911B876693009D1B83 /* OtherSDK */,
-				005C949E1B876694009D1B83 /* OtherSDKTests */,
 				005C946A1B875D3A009D1B83 /* Products */,
 				C8EA8BE3B0D0CB056D24A95D /* Pods */,
 				A4D974B12D68290A725C866E /* Frameworks */,
@@ -117,8 +83,6 @@
 			children = (
 				005C94691B875D3A009D1B83 /* TheSDK.framework */,
 				005C94741B875D3A009D1B83 /* TheSDKTests.xctest */,
-				005C94901B876693009D1B83 /* OtherSDK.framework */,
-				005C949A1B876694009D1B83 /* OtherSDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,23 +142,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		005C949E1B876694009D1B83 /* OtherSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				005C94A11B876694009D1B83 /* OtherSDKTests.m */,
-				005C949F1B876694009D1B83 /* Supporting Files */,
-			);
-			path = OtherSDKTests;
-			sourceTree = "<group>";
-		};
-		005C949F1B876694009D1B83 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				005C94A01B876694009D1B83 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		A4D974B12D68290A725C866E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,15 +171,6 @@
 			files = (
 				005C94871B875F9C009D1B83 /* TSKThing.h in Headers */,
 				005C946F1B875D3A009D1B83 /* TheSDK.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		005C948D1B876693009D1B83 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				005C94AB1B8766C1009D1B83 /* OSKMog.h in Headers */,
-				005C94951B876694009D1B83 /* OtherSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,44 +215,6 @@
 			productReference = 005C94741B875D3A009D1B83 /* TheSDKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		005C948F1B876693009D1B83 /* OtherSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 005C94A71B876694009D1B83 /* Build configuration list for PBXNativeTarget "OtherSDK" */;
-			buildPhases = (
-				B74D91C53F1170F335B5469A /* Check Pods Manifest.lock */,
-				005C948B1B876693009D1B83 /* Sources */,
-				005C948C1B876693009D1B83 /* Frameworks */,
-				005C948D1B876693009D1B83 /* Headers */,
-				005C948E1B876693009D1B83 /* Resources */,
-				70C57A342AEA7F9FFF244267 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = OtherSDK;
-			productName = OtherSDK;
-			productReference = 005C94901B876693009D1B83 /* OtherSDK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		005C94991B876694009D1B83 /* OtherSDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 005C94A81B876694009D1B83 /* Build configuration list for PBXNativeTarget "OtherSDKTests" */;
-			buildPhases = (
-				005C94961B876694009D1B83 /* Sources */,
-				005C94971B876694009D1B83 /* Frameworks */,
-				005C94981B876694009D1B83 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				005C949D1B876694009D1B83 /* PBXTargetDependency */,
-			);
-			name = OtherSDKTests;
-			productName = OtherSDKTests;
-			productReference = 005C949A1B876694009D1B83 /* OtherSDKTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -328,12 +228,6 @@
 						CreatedOnToolsVersion = 6.4;
 					};
 					005C94731B875D3A009D1B83 = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					005C948F1B876693009D1B83 = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					005C94991B876694009D1B83 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
@@ -352,8 +246,6 @@
 			targets = (
 				005C94681B875D3A009D1B83 /* TheSDK */,
 				005C94731B875D3A009D1B83 /* TheSDKTests */,
-				005C948F1B876693009D1B83 /* OtherSDK */,
-				005C94991B876694009D1B83 /* OtherSDKTests */,
 			);
 		};
 /* End PBXProject section */
@@ -367,20 +259,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		005C94721B875D3A009D1B83 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		005C948E1B876693009D1B83 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		005C94981B876694009D1B83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -420,36 +298,6 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-TheSDK/Pods-TheSDK-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		70C57A342AEA7F9FFF244267 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-OtherSDK/Pods-OtherSDK-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B74D91C53F1170F335B5469A /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -469,22 +317,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		005C948B1B876693009D1B83 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				005C94AC1B8766C1009D1B83 /* OSKMog.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		005C94961B876694009D1B83 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				005C94A21B876694009D1B83 /* OtherSDKTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -492,11 +324,6 @@
 			isa = PBXTargetDependency;
 			target = 005C94681B875D3A009D1B83 /* TheSDK */;
 			targetProxy = 005C94761B875D3A009D1B83 /* PBXContainerItemProxy */;
-		};
-		005C949D1B876694009D1B83 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 005C948F1B876693009D1B83 /* OtherSDK */;
-			targetProxy = 005C949C1B876694009D1B83 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -653,78 +480,6 @@
 			};
 			name = Release;
 		};
-		005C94A31B876694009D1B83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8BA473B631B1EA81A159A1C /* Pods-OtherSDK.debug.xcconfig */;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = OtherSDK/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		005C94A41B876694009D1B83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 650E33226694564229278BC2 /* Pods-OtherSDK.release.xcconfig */;
-			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OtherSDK/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		005C94A51B876694009D1B83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = OtherSDKTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		005C94A61B876694009D1B83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = OtherSDKTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -751,24 +506,6 @@
 			buildConfigurations = (
 				005C94831B875D3A009D1B83 /* Debug */,
 				005C94841B875D3A009D1B83 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		005C94A71B876694009D1B83 /* Build configuration list for PBXNativeTarget "OtherSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				005C94A31B876694009D1B83 /* Debug */,
-				005C94A41B876694009D1B83 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		005C94A81B876694009D1B83 /* Build configuration list for PBXNativeTarget "OtherSDKTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				005C94A51B876694009D1B83 /* Debug */,
-				005C94A61B876694009D1B83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

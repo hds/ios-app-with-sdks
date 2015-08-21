@@ -15,7 +15,6 @@
 		005C944A1B875AE2009D1B83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005C94481B875AE2009D1B83 /* LaunchScreen.xib */; };
 		005C94561B875AE2009D1B83 /* AppWithSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005C94551B875AE2009D1B83 /* AppWithSDKTests.m */; };
 		005C948A1B876136009D1B83 /* TheSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005C94891B876136009D1B83 /* TheSDK.framework */; };
-		005C94AE1B876785009D1B83 /* OtherSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005C94AD1B876785009D1B83 /* OtherSDK.framework */; };
 		FC67CD9F36B95762E0F80F44 /* Pods_AppWithSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF846B219ABF539876F8BC4B /* Pods_AppWithSDK.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -57,7 +56,6 @@
 			files = (
 				FC67CD9F36B95762E0F80F44 /* Pods_AppWithSDK.framework in Frameworks */,
 				005C948A1B876136009D1B83 /* TheSDK.framework in Frameworks */,
-				005C94AE1B876785009D1B83 /* OtherSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
